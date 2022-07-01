@@ -13,7 +13,7 @@ int handleargs(int argc, char* argv[]) {
 			false, "Blue", "string");
 		TCLAP::ValueArg<std::string> contourArg("n", "contourcount",
 			"Maximum number of contours to track/identify at the same time",
-			false, "10", "string");
+			false, "10", "integer");
 		TCLAP::ValueArg<std::string> sourceArg("v", "videosource",
 			"Video stream or recording destination path (by default, the source is a default webcamera)",
 			false, "default", "string");
@@ -22,7 +22,7 @@ int handleargs(int argc, char* argv[]) {
 			false, "default", "string");
 		TCLAP::ValueArg<std::string> timeArg("t", "timelimit",
 			"Time limit, image processing will end after this much time passes (milliseconds)",
-			false, "-1", "string");
+			false, "-1", "integer");
 		TCLAP::SwitchArg morphoArg("m", "morphomode",
 			"Choose whether or not to apply morphological opening/closing (-m to prevent)",
 			cmd, true);
