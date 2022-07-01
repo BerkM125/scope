@@ -7,7 +7,7 @@ Other than that, most if not all of the functionality can be accessed via the -h
 
 | Argument  | Description |
 | ------------- | ------------- |
-| -t <<integer>> --time <integer> | Time limit, image processing will end after this much time passes (milliseconds)  |
+| -t [integer], --time <integer> | Time limit, image processing will end after this much time passes (milliseconds)  |
 | -o <string>,  --output <string> | Path to centroid coordinate data dump if looking to record tracking data  |
 | -v <string>, --videosource <string> | Video stream or recording destination path (by default, the source is a default webcamera)  |
 | -n <integer>, --contourcount <integer>  | Maximum number of contours to track/identify at the same time |
