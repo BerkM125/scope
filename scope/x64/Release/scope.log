@@ -1,0 +1,27 @@
+﻿  main.cpp
+C:\Berkan\VisualStudio\scope\scope\main.cpp(85,43): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Berkan\VisualStudio\scope\scope\main.cpp(85,32): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Berkan\VisualStudio\scope\scope\main.cpp(179,44): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+C:\Berkan\VisualStudio\scope\scope\main.cpp(179,33): warning C4244: 'argument': conversion from 'double' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+  Generating code
+  23 of 890 functions ( 2.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    10 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  scope.vcxproj -> C:\Berkan\VisualStudio\scope\x64\Release\scope.exe

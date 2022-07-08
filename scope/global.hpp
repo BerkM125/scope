@@ -14,6 +14,7 @@ extern int maxcontourcount;
 extern bool displaywindow;
 extern bool morphologicmode;
 extern std::string source;
+extern std::string imagesrc;
 extern std::string output;
 extern std::string trackeddata;
 extern std::map<std::string, std::pair<int, int>> clrmapping;

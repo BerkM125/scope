@@ -35,6 +35,7 @@ bool morphologicmode = true;
 //CLI variables
 std::string source = "default";
 std::string output = "default";
+std::string imagesrc = "default";
 
 //String used to temporarily store all centroid data
 std::string trackeddata = "";
